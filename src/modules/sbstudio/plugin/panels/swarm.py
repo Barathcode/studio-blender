@@ -49,4 +49,4 @@ class SwarmPanel(Panel):
         row = layout.row(align=True)
         row.operator(TakeoffOperator.bl_idname, text="Takeoff", icon="TRIA_UP_BAR")
         row.operator(ReturnToHomeOperator.bl_idname, text="RTH", icon="HOME")
-        row.operator(LandOperator.bl_idname, text="Land", icon="TRIA_DOWN_BAR")
+        row.operator(LandOperator.bl_idname, text="Hey", icon="TRIA_DOWN_BAR")
