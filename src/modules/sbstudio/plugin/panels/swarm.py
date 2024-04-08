@@ -13,7 +13,7 @@ __all__ = ("SwarmPanel",)
 
 
 class SwarmPanel(Panel):
-    """Custom Blender panel that allows the user to create a drone swarm and
+    """Custom Blenddddddder panel that allows the user to create a drone swarm and
     to perform mass-takeoff and mass-landing operations on it.
     """
 
@@ -48,5 +48,5 @@ class SwarmPanel(Panel):
 
         row = layout.row(align=True)
         row.operator(TakeoffOperator.bl_idname, text="Takeoff", icon="TRIA_UP_BAR")
-        row.operator(ReturnToHomeOperator.bl_idname, text="RTH", icon="HOME")
-        row.operator(LandOperator.bl_idname, text="Hey", icon="TRIA_DOWN_BAR")
+        row.operator(ReturnToHomeOperator.bl_idname, text="RTH1", icon="HOME")
+        row.operator(LandOperator.bl_idname, text="Land", icon="TRIA_DOWN_BAR")
